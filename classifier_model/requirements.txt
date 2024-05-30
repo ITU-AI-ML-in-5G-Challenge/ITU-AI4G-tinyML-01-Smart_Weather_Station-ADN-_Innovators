@@ -1,0 +1,10 @@
+# Empty on purpose, add extra dependencies here
+tensorflow  # This will install the latest stable TensorFlow version
+
+# Optional dependencies (based on imports)
+argparse  # for command line parsing
+matplotlib  # for visualization
+numpy  # for numerical computations
+scikit-learn  # for data manipulation and machine learning
+pandas  # for data analysis (might be imported by ei_tensorflow)
+opencv-python  # for image processing (might be imported by ei_tensorflow)
